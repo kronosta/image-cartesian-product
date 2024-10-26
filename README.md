@@ -1,6 +1,8 @@
 # image-cartesian-product
 Take a sort of colored Cartesian product to get 4-dimensional image slices out of two component images. Note that the "verbose" option is really slow since printing is expensive; without the option it takes about 5 seconds on my mid-level gaming PC, with it the program took 13 minutes.
 
+Rotation should be integers in degrees
+
 # Usage
 ```
 ImageCartesianProduct [rotation] [image1] [image2] [output-prefix]
