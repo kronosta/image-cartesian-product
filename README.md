@@ -24,3 +24,6 @@ Output prefix should be a file path without '.png' at the end, output images wil
 * delete will delete all .png files with the prefix specified
 * verbose is like the standard command but it prints out all the trig results for debug purposes
 ```
+
+# Image grids
+If you download the image-grid.py file and put it where your output images are, you can run `python image-grid.py` to get a usage page. This allows you to turn the slice images into a grid quickly and conveniently
